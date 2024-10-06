@@ -11,13 +11,9 @@ error() {
   exit 1
 }
 
-# Step 0: Make sure path at home
+# Step 1: Clone the fast-vim-setup repository
 log "Switching to home directory..."
 cd ~ || error "Failed to switch to home directory."
-
-# Step 1: Clone the fast-vim-setup repository
-log "Cloning vim-fast-setup repository..."
-git clone git@github.com:CreatorB/vim-fast-setup.git || error "Failed to clone vim-fast-setup repository."
 
 # Step 2: Clone The Ultimate vimrc repository
 log "Cloning The Ultimate vimrc repository..."
