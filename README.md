@@ -1,5 +1,7 @@
 # 💻 Vim Fast Setup
 
+🖼️ _"Although I love Linux, my workplace uses Windows, so I use WSL to run Kali Linux"_
+
 This repository provides a quick and easy way to set up a powerful Vim environment with pre-configured settings. For seasoned Vim users, this setup will help you get up and running with a highly productive Vim configuration in no time. Perhaps you have different preferences and settings, you may need to adjust the rest.
 
 **NOTE:** You can skip the *Quick Start* steps by automating them with the `setup.sh` script provided in this repository:
