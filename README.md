@@ -40,7 +40,10 @@ git clone git@github.com:CreatorB/vim-fast-setup.git
 Clone this repository to your local machine
 
 ```
-git clone git@github.com:amix/vimrc.git
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+```
+```
+sh ~/.vim_runtime/install_awesome_vimrc.sh
 ```
 
 You should read the [The Ultimate vimrc](https://github.com/amix/vimrc) first to get the details.
