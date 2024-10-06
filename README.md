@@ -8,6 +8,23 @@ This repository provides a quick and easy way to set up a powerful Vim environme
 git clone git@github.com:CreatorB/vim-fast-setup.git ; cd vim-fast-setup ; chmod +x setup.sh ; ./setup.sh
 ```
 
+Also you will need to add the following lines to your .gitignore file when using this VIM configs in your project:
+
+```
+CoffeeScript
+Enable
+Files
+JavaScript
+Misc
+Shell
+Status
+VIM
+Visual
+bufExplorer
+vimgrep
+solid
+```
+
 ## Quick Start
 
 ### 1. Clone this Repository
