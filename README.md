@@ -1,4 +1,4 @@
-# :rocket: Vim Fast Setup
+# 💻 Vim Fast Setup
 
 This repository provides a quick and easy way to set up a powerful Vim environment with pre-configured settings. For seasoned Vim users, this setup will help you get up and running with a highly productive Vim configuration in no time. Perhaps you have different preferences and settings, you may need to adjust the rest.
 
@@ -8,7 +8,7 @@ This repository provides a quick and easy way to set up a powerful Vim environme
 cd ~ ; git clone git@github.com:CreatorB/vim-fast-setup.git ; cd vim-fast-setup ; chmod +x setup.sh ; ./setup.sh
 ```
 
-Also you will need to add the following lines to your .gitignore file when using this VIM configs in your project:
+Also you will need to add the following lines to your .gitignore file when using this VIM in your project:
 
 ```
 CoffeeScript
