@@ -5,7 +5,7 @@ This repository provides a quick and easy way to set up a powerful Vim environme
 **NOTE:** You can skip the *Quick Start* steps by automating them with the `setup.sh` script provided in this repository:
 
 ```
-git clone git@github.com:CreatorB/vim-fast-setup.git ; cd vim-fast-setup ; chmod +x setup.sh ; ./setup.sh
+cd ~ ; git clone git@github.com:CreatorB/vim-fast-setup.git ; cd vim-fast-setup ; chmod +x setup.sh ; ./setup.sh
 ```
 
 Also you will need to add the following lines to your .gitignore file when using this VIM configs in your project:
