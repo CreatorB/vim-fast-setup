@@ -2,6 +2,12 @@
 
 " General Settings
 
+" set highlight to 1000 ms
+let g:highlightedyank_highlight_duration = 1000
+
+" auto save file
+autocmd CursorHoldI,CursorHold * silent! update
+
 set nocompatible	" not compatible with the old-fashion vi mode
 set bs=2		" allow backspacing over everything in insert mode
 set ruler		" show the cursor position all the time
