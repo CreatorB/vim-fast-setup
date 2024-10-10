@@ -58,13 +58,26 @@ Copy the `my_configs.vim` file to `~/.vim_runtime/my_configs.vim`:
 cp vim-fast-setup/my_configs.vim ~/.vim_runtime/my_configs.vim
 ```
 
-### 4. Set up the plugins (typically, I use Wakatime for tracking coding time and Codeium for copilot code).
+### 4. Set up the plugins (typically, I use some plugins below)
 
+Wakatime for tracking coding time 
 ```
 git clone --depth=1 https://github.com/wakatime/vim-wakatime ~/.vim_runtime/pack/plugins/start/vim-wakatime
 ```
+
+Codeium for copilot code
 ```
 git clone --depth=1 https://github.com/Exafunction/codeium.vim ~/.vim_runtime/pack/plugins/start/codeium
+```
+
+Vim commentary for commenting the line as you intended
+```
+git clone --depth=1 https://github.com/tpope/vim-commentary ~/.vim_runtime/pack/plugins/start/commentary
+```
+
+LeaderF - fzf modification tools. If you use setup.sh, you also need to comment out [lines 44 && 45](https://github.com/CreatorB/vim-fast-setup/blob/742f3cdb7ebb97236dd440f7efdbd66d08248a77/setup.sh#L44) and review the [requirements](https://github.com/Yggdroot/LeaderF?tab=readme-ov-file#requirements)
+```
+git clone --depth=1 https://github.com/Yggdroot/LeaderF ~/.vim_runtime/pack/plugins/start/LeaderF
 ```
 
 ### 5. An awesome CLI references for you CLI fans
