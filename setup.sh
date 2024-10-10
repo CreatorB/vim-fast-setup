@@ -36,5 +36,13 @@ git clone --depth=1 https://github.com/wakatime/vim-wakatime ~/.vim_runtime/pack
 log "Installing Codeium plugin..."
 git clone --depth=1 https://github.com/Exafunction/codeium.vim ~/.vim_runtime/pack/plugins/start/codeium || error "Failed to install Codeium plugin."
 
+# Step 7: Install commentary plugin
+log "Installing Commentary plugin..."
+git clone --depth=1 https://github.com/tpope/vim-commentary ~/.vim_runtime/pack/plugins/start/commentary || error "Failed to install Commentary plugin."
+
+# Step 8: Install LeaderF plugin
+# log "Installing LeaderF plugin..."
+# git clone --depth=1 https://github.com/Yggdroot/LeaderF ~/.vim_runtime/pack/plugins/start/LeaderF || error "Failed to install LeaderF plugin."
+
 # Final message
 log "Vim setup completed successfully! Enjoy your new Vim environment."
